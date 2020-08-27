@@ -5,4 +5,14 @@ PyPi integration to return the status of Welland Canal bridges in the Niagara Re
 
 # Usage
 
-Simply call the integration and it will return a JSON payload with all of the bridge update information from the CanalStatus API. (See main.py for example.)
+## For all bridges
+
+get_bridge_status()
+
+Will return a JSON object with all bridge status included.
+
+## For a single bridge
+
+get_bridge_status(bridge_id)
+
+Will return a JSON objectg with just the bridge requested included.

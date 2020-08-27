@@ -6,7 +6,7 @@ with open("README.md","r") as fh:
 setup(
   name = 'wellandcanalbridges',
   packages = ['wellandcanalbridges'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='apache-2.0',
   description = 'Integration for Welland Canal Bridge Status',
   long_description = long_description,
@@ -14,7 +14,7 @@ setup(
   author = 'Tim Empringham',
   author_email = 'tim.empringham@live.ca',
   url = 'https://github.com/djtimca/wellancanalbridges',
-  download_url = 'https://github.com/djtimca/wellandcanalbridges/archive/v_011.tar.gz',
+  download_url = 'https://github.com/djtimca/wellandcanalbridges/archive/v_012.tar.gz',
   keywords = ['Niagara', 'Canal', 'Welland Canal', 'Bridge', 'Status'],
   install_requires=[
           'aiohttp',
